@@ -1,4 +1,4 @@
-#ptracer - systemcall tracer
+# ptracer - systemcall tracer
 
 ---
 
@@ -8,15 +8,15 @@ A minimal x86-64 Linux syscall tracer using **ptrace()**
 The tracer launches another program, stops it at syscall boundaries, reads its CPU registers, and prints the syscall it makes.
 
 
-##Build
+## Build
 
 `gcc -Wall -Wextra -Wpedanctic tracer.c -o tracer`
 
-##Usage
+## Usage
 
 `./tracer <program> [arguments...]`
 
-###Example:
+### Example:
 
 `./tracer pwd`
 
